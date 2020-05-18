@@ -1,7 +1,8 @@
-#import sys
-#sys.path.append('mlstudy')
+# import sys
+# sys.path.append('mlstudy')
 # Considering your module contains a function called my_func, you could import it:
-# from variable_inspection import dfm
+# from variable_inspection import dfm (X)
+# from array_check_function import dfm (O)
 
 import pandas
 import numpy
