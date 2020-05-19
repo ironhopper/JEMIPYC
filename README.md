@@ -66,7 +66,7 @@ df is simple view, <br>
 dfx is extended view (full row and column. <br>
 
 variable inspector 대용으로 만들었습니다. <br>
-it is alternative of variable inspector <br>
+it is alternative of variable inspector <br><br>
 <i>**<u>(<i>p.s.</i>)</u>..</i>
 <!--    * 
       + PS -->
