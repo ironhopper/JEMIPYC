@@ -55,7 +55,8 @@ variable inspector 대용으로 만들었습니다.
 * p.s.
 
 일반 array 말고 아래와 같이 <br>
-`(python)Z= np.array([1,2,3])`
+```(python)
+Z= np.array([1,2,3])```
 ndarray 만 사용 가능합니다.
 
 <hr>
