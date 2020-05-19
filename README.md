@@ -1,3 +1,9 @@
+<!--body.special ul > li:first-child > ul > li {
+  list-style-type: square;
+}
+
+list-style-type: square, disc, circle, etc... -->
+
 # mlstudy
 for machine learning study/ custom algorithm included
 
@@ -52,7 +58,9 @@ dfx -> extended table(전체 데이터 확인용) 입니다. <br>
 
 variable inspector 대용으로 만들었습니다.
 
-* p.s.
+**(p.s.)
+<!--    * 
+      + PS -->
 
 일반 array,list 도 사용가능하며 아래와 같이 <br>
 ```python
