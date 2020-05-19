@@ -1,6 +1,6 @@
 # import sys
 # sys.path.append('mlstudy')
-# from variable_inspection import dfm
+# from variable_inspection import df,dfx
 
 import pandas
 import numpy
