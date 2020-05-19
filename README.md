@@ -20,6 +20,7 @@ from array_check_function import dfm
 variable inspector 대용으로 만들었습니다.
 
 
+<pre>
 0519 update
 
 adding and editing,simplifying functions
@@ -30,3 +31,4 @@ pandas.reset_option('display.max_columns')
 dfx: extended
 pandas.set_option('display.max_columns', None)
 => max row and col
+</pre>
