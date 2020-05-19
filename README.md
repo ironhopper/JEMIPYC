@@ -25,7 +25,7 @@ variable inspector 대용으로 만들었습니다.
 >
 >adding and editing,simplifying functions
 >
->
+>_
 >
 >only df:
 >
@@ -33,7 +33,7 @@ variable inspector 대용으로 만들었습니다.
 >
 >=> reset options
 >
->
+>_
 >
 >dfx: extended
 >
