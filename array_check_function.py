@@ -1,6 +1,6 @@
 # import sys
 # sys.path.append('mlstudy')
-# from variable_inspection import df,dfx
+# from array_check_function import df,dfx,dfn,dfnx
 
 import pandas
 import numpy
@@ -50,13 +50,13 @@ def dfn(*x):
   for i in range(leng):
     row=len(x[0])
     blank = ['']*row
-    tabn = '('+str(i)+')'
+    tabn = '('+str(i+1)+')'
     blank = pandas.DataFrame(blank,columns=[tabn])
     xx = pandas.DataFrame(x[i])
     if(i==0):
-      df_concat = xx
+      df_concat = pandas.concat([xx,blank], axis=1)
     else:
-      df_concat = pandas.concat([df_concat,blank,xx], axis=1)
+      df_concat = pandas.concat([df_concat,xx,blank], axis=1)
   display(df_concat)
 
 # extension
@@ -86,17 +86,17 @@ def dfnx(*x):
   for i in range(leng):
     row=len(x[0])
     blank = ['']*row
-    tabn = '('+str(i)+')'
+    tabn = '('+str(i+1)+')'
     blank = pandas.DataFrame(blank,columns=[tabn])
     xx = pandas.DataFrame(x[i])
     if(i==0):
-      df_concat = xx
+      df_concat = pandas.concat([xx,blank], axis=1)
     else:
-      df_concat = pandas.concat([df_concat,blank,xx], axis=1)
+      df_concat = pandas.concat([df_concat,xx,blank], axis=1)
   display(df_concat)
 
 # Usage
 # df(X,Y)
 # dfx(X,Y)
-# dfn(X,Y)
+# dfn(X,Y,X)
 # dfnx(X,Y)
