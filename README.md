@@ -83,8 +83,10 @@ it is alternative of variable inspector <br><br>
 <i>**<u>(<i>p.s.</i>)</u>..</i>
 <!--    * 
       + PS -->
-
-일반 array,list 도 사용가능하며 아래와 같이 <br>
+1. 기타 모든 변수의 타입 등의 현재 상태를 확인할땐 <br>
+`whos` 를 타이핑하고 실행합니다. <br>
+(ipynb 노트북을 사용할 경우) <br><<br>
+2. 일반 array,list 도 사용가능하며 아래와 같이 <br>
 you can use general array, list, and <br>
 
 ```python
