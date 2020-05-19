@@ -39,7 +39,7 @@ for machine learning study/ custom algorithm included
 ```python
 import sys
 sys.path.append('mlstudy')
-from array_check_function import dfm
+from array_check_function import df,dfx
 ```
 
 3.  `df(X,Y)`   <br>
