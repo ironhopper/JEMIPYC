@@ -26,11 +26,13 @@ variable inspector 대용으로 만들었습니다.
 >adding and editing,simplifying functions
 >
 >
+>
 >only df:
 >
 >pandas.reset_option('display.max_columns')
 >
 >=> reset options
+>
 >
 >
 >dfx: extended
