@@ -22,6 +22,14 @@ for machine learning study/ custom algorithm included
 >
 >_
 >
+>dfn : numbering, dfv : variable_naming
+>
+> ex {1} {2} {3} ... /  <(x) <(y) <(z) ...
+>
+>=> just use it, and you know right then exactly.
+>
+>_
+>
 >dfx: extended
 >
 >pandas.set_option('display.max_columns', None)
@@ -51,7 +59,7 @@ copy and paste below header codes. <br>
 ```python
 import sys
 sys.path.append('mlstudy')
-from array_check_function import df,dfx,dfn,dfnx
+from array_check_function import df,dfn,dfv,dfx,dfnx,dfvx
 ```
 
 3.  `df(X,Y)`   <br>
@@ -60,6 +68,7 @@ from array_check_function import df,dfx,dfn,dfnx
                 
 이런식으로 사용합니다. <br>
 df -> 간단하게 볼때 <br>
+dfn,dfv -> 칼럼을 숫자로 구분, 칼럼을 변수명으로 구분(써보면 바로 압니다. 파이썬코드에 예제가 있으니 참고 바랍니다.)
 dfx -> extended table(전체 데이터 확인용) 입니다. <br>
 like above. <br>
 df is simple view, <br>
