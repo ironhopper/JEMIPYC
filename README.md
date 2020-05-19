@@ -68,7 +68,7 @@ from array_check_function import df,dfn,dfv,dfx,dfnx,dfvx
                 
 이런식으로 사용합니다. <br>
 df -> 간단하게 볼때 <br>
-dfn,dfv -> 칼럼을 숫자로 구분, 칼럼을 변수명으로 구분(써보면 바로 압니다. 파이썬코드에 예제가 있으니 참고 바랍니다.)
+dfn,dfv -> 칼럼을 숫자로 구분, 칼럼을 변수명으로 구분(써보면 바로 압니다. 파이썬코드에 아래 예제가 있으니 참고 바랍니다.) <br>
 dfx -> extended table(전체 데이터 확인용) 입니다. <br>
 like above. <br>
 df is simple view, <br>
@@ -76,6 +76,8 @@ dfx is extended view (full row and column. <br>
 
 variable inspector 대용으로 만들었습니다. <br>
 it is alternative of variable inspector <br><br>
+
+
 <i>**<u>(<i>p.s.</i>)</u>..</i>
 <!--    * 
       + PS -->
@@ -94,3 +96,21 @@ ndarray also. <br>
 <sub>다른 자료구조들은 사용하신분들의 제보(?)를 부탁드립니다..</sub>
 
 <hr>
+
+<br>
+
+```python
+### example
+# Apple = np.array([[1,2,3,4],[5,6,7,8]])
+# Banana = [1,2,3,4,5,6,7,8]
+# C = [[1],[2],[3],[4],[5],[6],[7],[8]]
+# D = np.array([[1,2,3,4,5,6,7,8]])
+# E = np.array([1,2,3,4,5,6,7,8])
+# F = np.array([[1],[2],[3],[4],[5],[6],[7],[8]])
+# G = [[1,2,3,4,5,6,7,8]]
+# df(Apple,Banana,C,D,E,F,G)
+# dfn(Apple,Banana,C,D,E,F,G)
+# dfv(Apple,Banana,C,D,E,F,G)
+# dfx(Apple,Banana,C,D,E,F,G)
+# ...
+```
