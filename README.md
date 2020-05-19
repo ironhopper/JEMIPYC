@@ -54,12 +54,13 @@ variable inspector 대용으로 만들었습니다.
 
 * p.s.
 
-일반 array 도 사용가능하며 아래와 같이 <br>
+일반 array,list 도 사용가능하며 아래와 같이 <br>
 ```python
 Z = np.array([1,2,3])
 ```
 ndarray 도 사용 가능합니다.
 
 물론 iris data set 도 사용됩니다.
+다른 자료구조는 사용하신분들의 제보(?)를 부탁드립니다..
 
 <hr>
