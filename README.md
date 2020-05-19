@@ -22,12 +22,12 @@ variable inspector 대용으로 만들었습니다.
 
 
 >0519 update
-
+>
 >adding and editing,simplifying functions
 >only df:
 >pandas.reset_option('display.max_columns')
 >=> reset options
-
+>
 >dfx: extended
 >pandas.set_option('display.max_columns', None)
 >=> max row and col
