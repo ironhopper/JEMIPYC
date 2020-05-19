@@ -42,13 +42,14 @@ sys.path.append('mlstudy')
 from array_check_function import dfm
 ```
 
-3.  df(X,Y) <br>
-    dfx(X,Y) <br>
-    <br>
+3.  `df(X,Y)`   <br>
+    `dfx(X,Y)`  <br>
+               
+                
 이런식으로 사용합니다. <br>
 df -> 간단하게 볼때 <br>
 dfx -> extended table(전체 데이터 확인용) 입니다. <br>
-<br><br>
+
 variable inspector 대용으로 만들었습니다.
 
 
