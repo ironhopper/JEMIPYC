@@ -36,12 +36,18 @@ for machine learning study/ custom algorithm included
 
 1. 사용하기전 <br>
 깃 클론 먼저 하시고 <br>
-(google colab 사용시엔 앞에 !(느낌표)를 붙일것)
-
+(google colab 사용시엔 앞에 !(느낌표)를 붙일것) <br>
+ before using the functions, <br>
+ you have to git clone this project. <br>
+ (if using google colab, attach the {!} sign) <br>
+ 
 `!git clone https://github.com/ironhopper/mlstudy.git`
 
 2. 사용시 <br>
-아래 헤더파일을 복사하여 원하는 프로젝트에 붙여줍니다.
+아래 헤더파일을 복사하여 원하는 프로젝트에 붙여줍니다. <br>
+when using functions, <br>
+copy and paste below header codes. <br>
+
 ```python
 import sys
 sys.path.append('mlstudy')
@@ -55,18 +61,24 @@ from array_check_function import df,dfx,dfn,dfnx
 이런식으로 사용합니다. <br>
 df -> 간단하게 볼때 <br>
 dfx -> extended table(전체 데이터 확인용) 입니다. <br>
+like above. <br>
+df is simple view, <br>
+dfx is extended view (full row and column. <br>
 
-variable inspector 대용으로 만들었습니다.
-
+variable inspector 대용으로 만들었습니다. <br>
+it is alternative of variable inspector <br>
 <i>**<u>(<i>p.s.</i>)</u>..</i>
 <!--    * 
       + PS -->
 
 일반 array,list 도 사용가능하며 아래와 같이 <br>
+you can use general array, list, and <br>
+
 ```python
 Z = np.array([1,2,3])
 ```
-ndarray 도 사용 가능합니다.
+ndarray 도 사용 가능합니다. <br>
+ndarray also. <br>
 
 물론 iris data set 도 사용됩니다.
 
