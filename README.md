@@ -60,6 +60,6 @@ Z = np.array([1,2,3])
 ```
 ndarray 만 사용 가능합니다.
 
-물론 iris data set 사용됩니다.
+물론 iris data set 도 사용됩니다.
 
 <hr>
