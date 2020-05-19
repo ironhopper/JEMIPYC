@@ -21,6 +21,7 @@ variable inspector 대용으로 만들었습니다.
 
 
 <hr>
+
 >0519 update
 >
 >adding and editing,simplifying functions
