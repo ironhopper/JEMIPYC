@@ -63,6 +63,8 @@ from array_check_function import df,dfn,dfv,dfx,dfnx,dfvx
 ```
 
 3.  `df(X,Y)`   <br>
+    `dfn(X,Y)`  <br>
+    `dfv(X,Y)`  <br>
     `dfx(X,Y)`  <br>
                
                 
