@@ -58,7 +58,7 @@ dfx -> extended table(전체 데이터 확인용) 입니다. <br>
 
 variable inspector 대용으로 만들었습니다.
 
-**(p.s.)
+**(<i>p.s.</i>)..
 <!--    * 
       + PS -->
 
