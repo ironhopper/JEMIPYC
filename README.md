@@ -4,8 +4,8 @@
 
 list-style-type: square, disc, circle, etc... -->
 
-# mlstudy
-for machine learning study/ custom algorithm included
+# JEMIPYF
+ml functions for machine learning study/ and useful custom algorithm included
 
 
 >0519 update
@@ -49,7 +49,7 @@ for machine learning study/ custom algorithm included
  you have to git clone this project. <br>
  (if using google colab, attach the {!} sign) <br>
  
-`!git clone https://github.com/ironhopper/mlstudy.git`
+`!git clone https://github.com/ironhopper/JEMIPYF.git`
 
 2. 사용시 <br>
 아래 헤더파일을 복사하여 원하는 프로젝트에 붙여줍니다. <br>
