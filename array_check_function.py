@@ -1,5 +1,5 @@
 # import sys
-# sys.path.append('JEMIPYF')
+# sys.path.append('JEMIPYC')
 # from array_check_function import df,dfn,dfv,dfx,dfnx,dfvx
 
 import pandas as pd
@@ -168,7 +168,8 @@ def dfvx(*x):
 # E = np.array([1,2,3,4,5,6,7,8])
 # F = np.array([[1],[2],[3],[4],[5],[6],[7],[8]])
 # G = [[1,2,3,4,5,6,7,8]]
-# df(A,B,C,D,E,F,G)
+# H = ['test','test2']
+# df(A,B,C,D,E,F,G,H)
 # dfn(B,A,X_iris_data,Y_iris_target)
 # dfv(B,A,X_iris_data,Y_iris_target)
 # dfx(X,Y,Z,A,B)
