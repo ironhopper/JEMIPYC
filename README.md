@@ -4,8 +4,8 @@
 
 list-style-type: square, disc, circle, etc... -->
 
-# JEMIPYF
-ml functions for machine learning study/ and useful custom algorithm included
+# JEMIPYC
+collection of ml functions for machine learning study/ and useful custom algorithm included
 
 
 >0519 update
