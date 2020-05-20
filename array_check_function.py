@@ -1,5 +1,5 @@
 # import sys
-# sys.path.append('mlstudy')
+# sys.path.append('JEMIPYF')
 # from array_check_function import df,dfn,dfv,dfx,dfnx,dfvx
 
 import pandas as pd
