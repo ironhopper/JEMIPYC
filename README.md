@@ -6,8 +6,14 @@ list-style-type: square, disc, circle, etc... -->
 
 # JEMIPYC
 collection of ml functions for machine learning study/ and useful custom algorithm included
-
-
+>
+>
+>
+>0524 update
+>
+>외부 함수 참조시에 dfv 변수명 인덱스가 제대로 표현되지 않는 오류 수정
+>
+>
 >0519 update
 >
 >adding and editing,simplifying functions
@@ -36,7 +42,7 @@ collection of ml functions for machine learning study/ and useful custom algorit
 >
 >=> max row and col
 >
-
+>
 
 <hr>
 
@@ -59,18 +65,29 @@ copy and paste below header codes. <br>
 ```python
 import sys
 sys.path.append('JEMIPYC')
-from array_check_function import df,dfn,dfv,dfx,dfnx,dfvx
+from array_check_function_global import df,dfn,dfv,dfx,dfnx,dfvx
+def indi(*obj):
+    names = []
+    leng = len(obj)
+    for i in range(leng):
+      for name in globals():    
+         if globals()[name] is obj[i]:
+           names.append(name)
+    return names
+import numpy as np
+
 ```
 
-3.  `df(X,Y)`   <br>
-    `dfn(X,Y)`  <br>
-    `dfv(X,Y)`  <br>
-    `dfx(X,Y)`  <br>
+3.  `df(A,B)`   <br>
+    `dfn(A,B)`  <br>
+    `dfv(A,B,indi(A,B))`  <br>
                
                 
 이런식으로 사용합니다. <br>
 df -> 간단하게 볼때 <br>
 dfn,dfv -> 칼럼을 숫자로 구분, 칼럼을 변수명으로 구분(써보면 바로 압니다. 파이썬코드에 아래 예제가 있으니 참고 바랍니다.) <br>
+이떄 dfv 의 경우 index 로 사용할 변수이름들을 직접 넣어줍니다. 복사붙여넣기를 하는것이 편합니다. String 말고 변수명이어야합니다. <br>
+예) dfv(A,B,indi(A,B)) <br><br>
 dfx -> extended table(전체 데이터 확인용) 입니다. <br>
 like above. <br>
 df is simple view, <br>
@@ -114,7 +131,7 @@ ndarray also. <br>
 # G = [[1,2,3,4,5,6,7,8]]
 # df(Apple,Banana,C,D,E,F,G)
 # dfn(Apple,Banana,C,D,E,F,G)
-# dfv(Apple,Banana,C,D,E,F,G)
+# dfv(Apple,Banana,C,D,E,F,G,indi(Apple,Banana,C,D,E,F,G))
 # dfx(Apple,Banana,C,D,E,F,G)
 # ...
 ```
