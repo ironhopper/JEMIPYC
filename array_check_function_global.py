@@ -59,7 +59,7 @@ def dfv(*x):
       # print(i)
       vname = x[-1][i]
       # print(vname)
-      tabv = "<("+str(vname[0])+")"
+      tabv = "<("+str(vname)+")"
       blank = pd.DataFrame(blank,columns=[tabv])
       xx = pd.DataFrame(x[i])
       if(i==0):
@@ -119,7 +119,7 @@ def dfvx(*x):
     if((i+1)!=leng):
       # print(i)
       vname = x[-1][i]
-      tabv = '<('+str(vname[0])+')'
+      tabv = '<('+str(vname)+')'
       blank = pd.DataFrame(blank,columns=[tabv])
       xx = pd.DataFrame(x[i])
       if(i==0):
