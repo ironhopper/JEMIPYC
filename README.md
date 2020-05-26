@@ -135,5 +135,5 @@ ndarray also. <br>
 # dfn(Apple,Banana,C,D,E,F,G)
 # dfv(Apple,Banana,C,D,E,F,G,indi(Apple,Banana,C,D,E,F,G))
 # dfx(Apple,Banana,C,D,E,F,G)
-## ...
+### ...
 ```
