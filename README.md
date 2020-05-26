@@ -89,7 +89,7 @@ df -> 간단하게 볼때 <br>
 dfn,dfv -> 칼럼을 숫자로 구분, 칼럼을 변수명으로 구분(써보면 바로 압니다. 파이썬코드에 아래 예제가 있으니 참고 바랍니다.) <br>
 이떄 dfv 의 경우 index 로 사용할 변수이름들을 직접 넣어줍니다. 복사붙여넣기를 하는것이 편합니다. <br>
 **String 말고 변수명이어야합니다.** <br>
-예) dfv(A,B,indi(A,B)) -> 이때 항상 마지막 변수로 넣어야 됨을 유의! <br><br>
+예) dfv(A,B,**indi(A,B)**) -> 이때 항상 **마지막 순서**로 넣어야 됨을 유의! <br><br>
 dfx -> extended table(전체 데이터 확인용) 입니다. <br>
 like above. <br>
 df is simple view, <br>
