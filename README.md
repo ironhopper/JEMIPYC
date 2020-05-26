@@ -63,6 +63,7 @@ when using functions, <br>
 copy and paste below header codes. <br>
 
 ```python
+#<header>
 import sys
 sys.path.append('JEMIPYC')
 from array_check_function_global import df,dfn,dfv,dfx,dfnx,dfvx
@@ -75,7 +76,7 @@ def indi(*obj):
            names.append(name)
     return names
 import numpy as np
-
+#</header>
 ```
 
 3.  `df(A,B)`   <br>
