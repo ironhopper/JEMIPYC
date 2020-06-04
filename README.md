@@ -1,10 +1,51 @@
+# JEMIPYC
+#### variable-inspector-like functions.
+<sup>it is just alternative. put the variables you want to know in parameters part.</sup>
+
+![jemipyc_image](https://postfiles.pstatic.net/MjAyMDA2MDRfMTA3/MDAxNTkxMjgwODU2ODc1.vcfoM1-3XIbNfq7DYBXhCVWvTKbkMwY8yY6Peimg8NEg.SgD4d1QTTPI9eR9yWw3J68sOQKKnrqRr3wBFP5REke8g.PNG.jehakim22oct/image.png?type=w966)
+
+사용하는 입장에서 복사하기 편하게 모아놨습니다.
+
+`!git clone https://github.com/ironhopper/JEMIPYC.git`
+```python
+###<header>###
+import sys
+sys.path.append('JEMIPYC')
+from array_check_function_global import df,dfn,dfv,dfx,dfnx,dfvx
+def indi(*obj):  # this returns parameter's variable name.
+    names = []
+    leng = len(obj)
+    for i in range(leng):
+      for name in globals():    
+         if globals()[name] is obj[i]:
+           names.append(name)
+    return names
+import numpy as np
+###</header>###
+```
+```python
+### example
+# Apple = np.array([[1,2,3,4],[5,6,7,8]])
+# Banana = [1,2,3,4,5,6,7,8]
+# C = [[1],[2],[3],[4],[5],[6],[7],[8]]
+# D = np.array([[1,2,3,4,5,6,7,8]])
+# E = np.array([1,2,3,4,5,6,7,8])
+# F = np.array([[1],[2],[3],[4],[5],[6],[7],[8]])
+# G = [[1,2,3,4,5,6,7,8]]
+# df(Apple,Banana,C,D,E,F,G)
+# dfn(Apple,Banana,C,D,E,F,G)
+# dfv(Apple,Banana,C,D,E,F,G,indi(Apple,Banana,C,D,E,F,G))
+# dfx(Apple,Banana,C,D,E,F,G)
+### ...
+```
+
 <!--body.special ul > li:first-child > ul > li {
   list-style-type: square;
 }
 
 list-style-type: square, disc, circle, etc... -->
 
-# JEMIPYC
+
 collection of ml functions for machine learning study/ and useful custom algorithm included
 >
 >
